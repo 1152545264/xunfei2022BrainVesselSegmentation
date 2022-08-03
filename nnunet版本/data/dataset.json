@@ -1,0 +1,111 @@
+{
+    "name": "XF2022",
+    "description": "KDXF copyright",
+    "tensorImageSize": "4D",
+    "reference": "see KDXF2022",
+    "licence": "see KDXF2022",
+    "release": "0.0",
+    "modality": {
+        "0": "CT"
+    },
+    "labels": {
+        "0": "background",
+        "1": "blood"
+    },
+    "numTraining": 20,
+    "numTest": 10,
+    "training": [
+        {
+            "image": "./imagesTr/KDXF_001.nii.gz",
+            "label": "./labelsTr/KDXF_001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_002.nii.gz",
+            "label": "./labelsTr/KDXF_002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_003.nii.gz",
+            "label": "./labelsTr/KDXF_003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_004.nii.gz",
+            "label": "./labelsTr/KDXF_004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_005.nii.gz",
+            "label": "./labelsTr/KDXF_005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_006.nii.gz",
+            "label": "./labelsTr/KDXF_006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_007.nii.gz",
+            "label": "./labelsTr/KDXF_007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_008.nii.gz",
+            "label": "./labelsTr/KDXF_008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_009.nii.gz",
+            "label": "./labelsTr/KDXF_009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_010.nii.gz",
+            "label": "./labelsTr/KDXF_010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_011.nii.gz",
+            "label": "./labelsTr/KDXF_011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_012.nii.gz",
+            "label": "./labelsTr/KDXF_012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_013.nii.gz",
+            "label": "./labelsTr/KDXF_013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_014.nii.gz",
+            "label": "./labelsTr/KDXF_014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_015.nii.gz",
+            "label": "./labelsTr/KDXF_015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_016.nii.gz",
+            "label": "./labelsTr/KDXF_016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_017.nii.gz",
+            "label": "./labelsTr/KDXF_017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_018.nii.gz",
+            "label": "./labelsTr/KDXF_018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_019.nii.gz",
+            "label": "./labelsTr/KDXF_019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/KDXF_020.nii.gz",
+            "label": "./labelsTr/KDXF_020.nii.gz"
+        }
+    ],
+    "test": [
+        "./imagesTs/KDXF_001.nii.gz",
+        "./imagesTs/KDXF_002.nii.gz",
+        "./imagesTs/KDXF_003.nii.gz",
+        "./imagesTs/KDXF_004.nii.gz",
+        "./imagesTs/KDXF_005.nii.gz",
+        "./imagesTs/KDXF_006.nii.gz",
+        "./imagesTs/KDXF_007.nii.gz",
+        "./imagesTs/KDXF_008.nii.gz",
+        "./imagesTs/KDXF_009.nii.gz",
+        "./imagesTs/KDXF_010.nii.gz"
+    ]
+}
