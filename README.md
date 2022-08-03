@@ -1,1 +1,4 @@
 # xunfei2022BrainVesselSegementation
+使用monai+pytorch-lightning版本最高得分为0.84左右
+使用nnunet版本最高得分为0.89左右，最终初榜排名为15
+nnunet版本中使用了fsl工具包里面的bet2算法去除颅骨和头皮
